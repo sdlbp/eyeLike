@@ -28,6 +28,7 @@ void detectAndDisplay( cv::Mat frame );
 
 /** Global variables */
 //-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
+// xcode 下使用相对路径参考 https://blog.csdn.net/u010053344/article/details/51379222
 cv::String face_cascade_name = "../res/haarcascade_frontalface_alt.xml";
 cv::CascadeClassifier face_cascade;
 std::string main_window_name = "Capture - Face detection";
