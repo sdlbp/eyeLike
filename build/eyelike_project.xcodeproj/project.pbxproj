@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		00903C3FA4EC4677BEBD8914 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F3D1C7748434F25875EEBA1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				12F1F290AEB040E5B823E383 /* CMake Rules */,
+			);
+			dependencies = (
+				FEA322B627D34C64AFDBAED6 /* PBXTargetDependency */,
+				B90CDACF9F684F4C84125F0C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		947D122980864BEE8B7F55FD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 40BA634E179640FC86E3D181 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FEE24DA6DDF540EE9A881241 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05801C521A4747F781780973 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.h */ = {isa = PBXBuildFile; fileRef = 24223FA6B61E45FFB6684730 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.h */; };
+		09FDEC329F5947D4BC3B6F06 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.h */ = {isa = PBXBuildFile; fileRef = 69C38D44034948EBB6DC55BC /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.h */; };
+		1D6B6FD3C45B4B7F9229CADD /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/main.cpp */ = {isa = PBXBuildFile; fileRef = ED1B46B1861245C685CBFD46 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/main.cpp */; };
+		32EB25BD134240FC85333BEF /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.cpp */ = {isa = PBXBuildFile; fileRef = F6E3562F73474CBD85C8BD7B /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.cpp */; };
+		3573BA6E0CCE440A846BB269 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.h */ = {isa = PBXBuildFile; fileRef = 889CCA4DC0D949D3A2444677 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.h */; };
+		91B6B2F2A3E846AFA0091AF5 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.cpp */ = {isa = PBXBuildFile; fileRef = A9E2103638C64B39B54841EA /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.cpp */; };
+		D4E8DC6751064260B9A83C76 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/constants.h */ = {isa = PBXBuildFile; fileRef = BA3BA6F9F65A4AF08600A54F /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/constants.h */; };
+		EFDA324491834CF48DD7D9A7 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.cpp */ = {isa = PBXBuildFile; fileRef = 99DB34F65DDB4E38B3FD0D75 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.cpp */; };
+		FA3626A998F1410CB6509EF6 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3ECEB77D0BA24FB1BFD2C18C /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		549A9DC09DB54C2893E35338 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7AB014C43F834381B0AA0891 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AABDBC1C00314C048C97D26F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FF964C47B968439D859606A4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		45362EE338864D0F87446E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44272605F91F41839203E1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947D122980864BEE8B7F55FD;
+			remoteInfo = ZERO_CHECK;
+		};
+		588360C2AB8B4EFAA80480AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44272605F91F41839203E1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532CA2CE7A55496EB7D59A8A;
+			remoteInfo = eyeLike;
+		};
+		E4A98FBE5D0F4ECDB15B93A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44272605F91F41839203E1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947D122980864BEE8B7F55FD;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24223FA6B61E45FFB6684730 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = helpers.h; path = src/helpers.h; sourceTree = SOURCE_ROOT; };
+		3ECEB77D0BA24FB1BFD2C18C /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		59E3E73A3BDC4F82B958EB92 /* eyeLike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = eyeLike; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C38D44034948EBB6DC55BC /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = findEyeCenter.h; path = src/findEyeCenter.h; sourceTree = SOURCE_ROOT; };
+		889CCA4DC0D949D3A2444677 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = findEyeCorner.h; path = src/findEyeCorner.h; sourceTree = SOURCE_ROOT; };
+		99DB34F65DDB4E38B3FD0D75 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = findEyeCenter.cpp; path = src/findEyeCenter.cpp; sourceTree = SOURCE_ROOT; };
+		A9E2103638C64B39B54841EA /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = findEyeCorner.cpp; path = src/findEyeCorner.cpp; sourceTree = SOURCE_ROOT; };
+		BA3BA6F9F65A4AF08600A54F /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants.h; path = src/constants.h; sourceTree = SOURCE_ROOT; };
+		ED1B46B1861245C685CBFD46 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F499DE3ED2DB4FA582E794AC /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F6E3562F73474CBD85C8BD7B /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = helpers.cpp; path = src/helpers.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AA5258E083F453DB52B65BD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		421180A8DD014E2BA7471DBB = {
+			isa = PBXGroup;
+			children = (
+				FF11D041F47E41059B9F84A8 /* ALL_BUILD */,
+				F52AAAEA2C844AB9AFAC403E /* eyeLike */,
+				F255F8BE764D4ECFA212735C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3955710B7E14E2AAE1D53EC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				99DB34F65DDB4E38B3FD0D75 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.cpp */,
+				A9E2103638C64B39B54841EA /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.cpp */,
+				F6E3562F73474CBD85C8BD7B /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.cpp */,
+				ED1B46B1861245C685CBFD46 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E24A26673A354AB2BC8E2CA2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA3BA6F9F65A4AF08600A54F /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/constants.h */,
+				69C38D44034948EBB6DC55BC /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.h */,
+				889CCA4DC0D949D3A2444677 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.h */,
+				24223FA6B61E45FFB6684730 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F255F8BE764D4ECFA212735C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E3E73A3BDC4F82B958EB92 /* eyeLike */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52AAAEA2C844AB9AFAC403E /* eyeLike */ = {
+			isa = PBXGroup;
+			children = (
+				A3955710B7E14E2AAE1D53EC /* Source Files */,
+				E24A26673A354AB2BC8E2CA2 /* Header Files */,
+				3ECEB77D0BA24FB1BFD2C18C /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/CMakeLists.txt */,
+			);
+			name = eyeLike;
+			sourceTree = "<group>";
+		};
+		FF11D041F47E41059B9F84A8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1AA5258E083F453DB52B65BD /* CMake Rules */,
+				F499DE3ED2DB4FA582E794AC /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		532CA2CE7A55496EB7D59A8A /* eyeLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9322D0BDA16C482085850CE9 /* Build configuration list for PBXNativeTarget "eyeLike" */;
+			buildPhases = (
+				088632804D9841989E3F1073 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD22E63C30214735AE038B28 /* PBXTargetDependency */,
+			);
+			name = eyeLike;
+			productName = eyeLike;
+			productReference = 59E3E73A3BDC4F82B958EB92 /* eyeLike */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44272605F91F41839203E1C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 47679315DB0145EE9D8A2062 /* Build configuration list for PBXProject "eyelike_project" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7AB014C43F834381B0AA0891 /* Debug */,
+				549A9DC09DB54C2893E35338 /* Release */,
+				FF964C47B968439D859606A4 /* MinSizeRel */,
+				AABDBC1C00314C048C97D26F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 421180A8DD014E2BA7471DBB;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				00903C3FA4EC4677BEBD8914 /* ALL_BUILD */,
+				947D122980864BEE8B7F55FD /* ZERO_CHECK */,
+				532CA2CE7A55496EB7D59A8A /* eyeLike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F1F290AEB040E5B823E383 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbp/Documents/个人/个人代码库/eyeLike.git/build -f /Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1D390955D2414A96985A802C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA7D7ED1882149DD8F4EE4F0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FEE24DA6DDF540EE9A881241 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbp/Documents/个人/个人代码库/eyeLike.git/build -f /Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088632804D9841989E3F1073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDA324491834CF48DD7D9A7 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCenter.cpp */,
+				91B6B2F2A3E846AFA0091AF5 /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/findEyeCorner.cpp */,
+				32EB25BD134240FC85333BEF /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/helpers.cpp */,
+				1D6B6FD3C45B4B7F9229CADD /* /Users/lbp/Documents/个人/个人代码库/eyeLike.git/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD22E63C30214735AE038B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947D122980864BEE8B7F55FD /* ZERO_CHECK */;
+			targetProxy = 45362EE338864D0F87446E1A /* PBXContainerItemProxy */;
+		};
+		B90CDACF9F684F4C84125F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532CA2CE7A55496EB7D59A8A /* eyeLike */;
+			targetProxy = 588360C2AB8B4EFAA80480AA /* PBXContainerItemProxy */;
+		};
+		FEA322B627D34C64AFDBAED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947D122980864BEE8B7F55FD /* ZERO_CHECK */;
+			targetProxy = E4A98FBE5D0F4ECDB15B93A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1139BB065E534434BD2825DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eyeLike;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1208F48F67764ADCAAC754D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/build";
+			};
+			name = MinSizeRel;
+		};
+		19E4B5C78F944144835E871B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		22AA0EFDCBF04056AE98F5B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eyeLike;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		322F007D836D4CB2B88DD02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/build";
+			};
+			name = Debug;
+		};
+		369DEA40421A47659949EC94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eyeLike;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6B9BCD71C08D483D9847D7A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8978573775CA4D6397A66E3B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9742B9AF31F44C6AB053C3C8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		97BA8CD1E11D4971AF833B45 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		984ABCE2E820428382294B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9B28DEB6C9BC4222AC8B6EF0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A81023D025EA40A199AA85FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BEDE78395204411A989AB5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/build";
+			};
+			name = Release;
+		};
+		BF9CBB68A40D4EF1A1F5C154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eyeLike;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E046BB726ADB4794886EB414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/lbp/Documents/个人/个人代码库/eyeLike.git/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BA634E179640FC86E3D181 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984ABCE2E820428382294B7C /* Debug */,
+				E046BB726ADB4794886EB414 /* Release */,
+				97BA8CD1E11D4971AF833B45 /* MinSizeRel */,
+				8978573775CA4D6397A66E3B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47679315DB0145EE9D8A2062 /* Build configuration list for PBXProject "eyelike_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322F007D836D4CB2B88DD02F /* Debug */,
+				BEDE78395204411A989AB5D7 /* Release */,
+				1208F48F67764ADCAAC754D0 /* MinSizeRel */,
+				6B9BCD71C08D483D9847D7A8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F3D1C7748434F25875EEBA1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E4B5C78F944144835E871B /* Debug */,
+				A81023D025EA40A199AA85FA /* Release */,
+				9B28DEB6C9BC4222AC8B6EF0 /* MinSizeRel */,
+				9742B9AF31F44C6AB053C3C8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9322D0BDA16C482085850CE9 /* Build configuration list for PBXNativeTarget "eyeLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1139BB065E534434BD2825DB /* Debug */,
+				BF9CBB68A40D4EF1A1F5C154 /* Release */,
+				22AA0EFDCBF04056AE98F5B9 /* MinSizeRel */,
+				369DEA40421A47659949EC94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44272605F91F41839203E1C5 /* Project object */;
+}
